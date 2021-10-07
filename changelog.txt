@@ -1,21 +1,31 @@
 == Changelog ==
 
-==1.7.4.1==
+==1.8.2.7==
+1.Update input type width for top rated check box label.
+
+==1.8.2.6==
+1.Add the separation option bullet or vertical line on More info Pop up.
+2.Update text font-weight on more info page to normal.
+
+==1.8.2.5==
+1. Updated the quote request recipients query to only sort the wcp data with emails.
+
+==1.8.2.4==
 1. Create email sending function to top rated WCP data (using rating plugin).
 2. Send quote request to three random top rated WCP data.
 
-==1.7.4.0==
+==1.8.2.3==
 1. Added checkbox option to quote request form.
 2. Added custom checkbox.
 3. Added a setting to change the label of Sending option of quote request.
 4. Create email sending function to top rated WCP data (using built-in rating).
 5. Create AJAX function to trigger the email sending function.
 
-==1.7.3.9==
+==1.8.2.2==
 1. Fixed the top margin of 'Clear Selection' button on the Shortcode generator for mobile view.
 2. Set the font-weight of More Info contents to normal.
 
-==1.7.3.8== 
+==1.8.2.1== 
 1.Set search limit for Free version to only the latest 10 wcp data.
 2.Set hidden fields only for simple fields.
 3.Add options for popup button styling.
@@ -23,7 +33,7 @@
 5.Fix filter height when showing more data.
 6.Additional setting for enquiry submit button ( Padding, Fontsize and Border radius).
 
-==1.7.3.7==
+==1.8.2.0==
 1.Change the request quote form sending into 3 random emails to ajax function.
 2.Fix json response error on gutenberg editor when wcpquote shortcode added.
 3.Added reset button on the field groups to display the more info fields by default.
@@ -32,7 +42,7 @@
 6.Fix layout style of the request quotes form make it scrollable.
 7.Fix layout of the filter table checkbox.
 
-== 1.7.3.6 ==
+== 1.8.1.9 ==
 1.Create ajax for single send email on tabular and horizontal View.
 2.Create validation rule on form input fields jquery.
 3.Create wp_ajax hook action to update quotes entries.
@@ -42,16 +52,15 @@
 7.Change php send email 3 random emails to ajax function for popup and default.
 8.Add wcp_timestamp metabox on wcp_outbound_clicks post type and update when track wcp_outbound_clicks is enabled.
 
-== 1.7.3.5 ==
-1.Create wcp-single-email.php file .
-2.Add script when success sending sanitize_email.
-3.Create media queries for request forms.
-4.Added style for single quotes email.
-6.Added JS to get post id and use to get email of current wcp data.
-7.Added ndf_data_enable_request_form_meta_box to ndf_data post type and included in more information section groups.
-8.Added function on ndf_utility_functions.php for the single request email form.
+== 1.8.1.8 ==
+1.Add script when success sending sanitize_email.
+2.Create media queries for request forms.
+3.Added style for single quotes email.
+4.Added JS to get post id and use to get email of current wcp data.
+5.Added ndf_data_enable_request_form_meta_box to ndf_data post type and included in more information section groups.
+6.Added function on ndf_utility_functions.php for the single request email form.
 
-= 1.7.3.4 =
+= 1.8.1.7 =
 1.Added field_group table ndf_saved_fields table on the database.
 2.Created Field Groups tab on the More Info Page Section.
 3.Created 3 section as maximum number of anchored tabs .
@@ -64,11 +73,11 @@
 10.Don't display field if no value.
 11.Fix mobile responsive.
 
-== 1.7.3.3 ==
+== 1.8.1.6 ==
 1.Added field_group options in ndf_saved_fields_data table.
 2.Created sections 1-3 as field groups.
 
-== 1.7.3.2 ==
+== 1.8.1.5 ==
 = Quotes Form Settings Field =
 1.Change form background color.
 2.Change text color.
@@ -85,26 +94,26 @@
 13.Added settings to change button width.
 14.Option to show and hide shortcode.
 
-= 1.7.3.1 =
+= 1.8.1.4 =
 1.Change the table header of request quote form entries .
 2.Log status of request data in request quote form entries.
 
-= 1.7.3.0 =
+= 1.8.1.3 =
 1.update the look of tables on More info settings field.
 2.Make the buttons on WCP settings the same blue as the navigation bar.
 3.Make 2 columns on more info section  fields tab.
 4.Add WCP Tools submenu to copy the shortcode for quote request.
 5.Added file "request-quotes-form-settings.php" under wcp-tools-submenu.
 
-= 1.7.2.9 =
+= 1.8.1.2 =
 = improve Admin UI =
 1.added topnav bar on WCP Settings.
 2.Update Navigation bar design.
 
-= 1.7.2.8 =
+= 1.8.1.1 =
 1. Added logo position settings on result table propeties.
 
-= 1.7.2.7 =
+= 1.8.1.0 =
 = Minor Bug fixes =
 1.Update JQuery deprecated functions.
 2.Fix filter table not showing on Wordpress 5.7.1.
@@ -118,9 +127,18 @@
 
 = 1.7.2.5 =
 1. Improve category column structure.
+2. Update wordpress-SDK to 2.2.3.
+3. Update plugin URL.
+4. Update compatibility tag to 5.1.
+5. Add style fixes for WP 5.1.
+6. Fix selected on More Information Button Action field issue.
+7. Add Contributors, Tags and Stable Tag.
+8. Fix undefined $ error.
 
 = 1.7.2.4 =
 1.Add options display settings to Categories 1-5 settings.
+2.Integrate Freemius SDK.
+3.Add limit to WCP Data when using Free Plan.
 
 = 1.7.2.3 =
 1. Update plugin update checker.

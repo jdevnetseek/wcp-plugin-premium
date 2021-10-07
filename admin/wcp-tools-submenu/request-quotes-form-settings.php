@@ -313,7 +313,7 @@ function request_quotes_form_border_radius_callback(){
 // Send to top rated option
 function quote_form_send_to_top_rated_callback($args){
 	$quote_form_send_to_top_rated = get_option( 'quote_form_send_to_top_rated', 'Request Quote from Top Rated Only' );
-	$html = '<input style="width:25%" type="text" id="quote_form_send_to_top_rated" name="quote_form_send_to_top_rated" value="'.$quote_form_send_to_top_rated.'" />'; 
+	$html = '<input style="width:50%" type="text" id="quote_form_send_to_top_rated" name="quote_form_send_to_top_rated" value="'.$quote_form_send_to_top_rated.'" />'; 
 	echo $html;
 }
 

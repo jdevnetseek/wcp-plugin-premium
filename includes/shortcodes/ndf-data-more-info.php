@@ -249,6 +249,7 @@ function ndf_data_more_info_shortcode( $atts ) {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		font-weight: normal;
 	}
 	.ndf_more_info_summary ul.frxp-list ul .text{
 		padding-right: 10px;
