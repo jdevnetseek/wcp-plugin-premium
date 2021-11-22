@@ -357,5 +357,4 @@ Ajax-driven Wordpress comparison plugin used for different industries. Create da
 
 = 1.0.1.0 =
 1. Alpha version.
-
-<a href="https://wcp.6bin.com/wp-content/uploads/2021/08/money1-1.png">Link Text</a>
+![Alt text](https://wcp.6bin.com/wp-content/uploads/2021/08/money1-1.png "Optional title")
